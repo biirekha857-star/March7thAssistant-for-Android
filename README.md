@@ -10,8 +10,7 @@
 > 应用显示名称与上游相同，但它只做**打包 + 图形化**，不修改任何自动化逻辑。
 > 自动化逻辑本身的问题请反馈给上游；**安装、部署、界面相关的问题请反馈到本仓库**。
 
-<!-- 发布前请把 YOURNAME 换成你的 GitHub 用户名 -->
-[![Release](https://img.shields.io/github/v/release/YOURNAME/March7thAssistant-Mobile?style=flat-square&label=Release)](https://github.com/YOURNAME/March7thAssistant-Mobile/releases/latest)
+[![Release](https://img.shields.io/github/v/release/biirekha857-star/March7thAssistant-for-Android?style=flat-square&label=Release)](https://github.com/biirekha857-star/March7thAssistant-for-Android/releases/latest)
 [![License](https://img.shields.io/badge/license-AGPL--3.0-blue?style=flat-square)](LICENSE)
 [![Platform](https://img.shields.io/badge/Android-7.0%2B-3ddc84?style=flat-square&logo=android)](https://www.android.com/)
 
@@ -119,7 +118,7 @@ March7thAssistant 首次运行需要扫码。二维码由 App 从容器里取回
 
 ### 1. 安装
 
-从 [Releases](https://github.com/YOURNAME/March7thAssistant-Mobile/releases/latest) 下载 `app-arm64-v8a-release.apk` 安装。
+从 [Releases](https://github.com/biirekha857-star/March7thAssistant-for-Android/releases/latest) 下载 APK 安装。
 
 > ⚠️ **本应用的包名是 `com.m7ahsr`。**
 > 如果你装过包名为 `com.termux` 的早期测试版，两者**不是同一个应用**，
