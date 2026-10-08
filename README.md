@@ -8,7 +8,7 @@
 
 > ⚠️ **本项目是非官方的社区安卓封装，与上游 [March7thAssistant](https://github.com/moesnow/March7thAssistant) 项目及其作者没有隶属关系。**
 > 应用显示名称与上游相同，但它只做**打包 + 图形化**，不修改任何自动化逻辑。
-> 自动化逻辑本身的问题请反馈给上游；**安装、部署、界面相关的问题请反馈到本仓库**。
+> 自动化逻辑本身的问题请反馈给上游；**安装、部署、界面相关的问题请反馈到本仓库(如果有精力我也会尝试打个补丁）**。
 
 [![Release](https://img.shields.io/github/v/release/biirekha857-star/March7thAssistant-for-Android?style=flat-square&label=Release)](https://github.com/biirekha857-star/March7thAssistant-for-Android/releases/latest)
 [![License](https://img.shields.io/badge/license-AGPL--3.0-blue?style=flat-square)](LICENSE)
@@ -60,9 +60,9 @@
 March7thAssistant 首次运行需要扫码。二维码由 App 从容器里取回并**直接显示在界面上**，点一下可全屏放大，用「米游社」App 扫即可。二维码会自动刷新，登录态保存在容器内，**之后不用再扫**。
 
 ### ▶️ 一键运行任务
-预置常用任务：完整运行 / 例行任务 / 每日实训 / 清体力 / 货币战争 / 差分宇宙 / 模拟宇宙 / 忘却之庭 / 虚构叙事 / 末日幻影 / 游戏更新 / 测试推送 / 任务列表。
+预置常用任务：完整运行 / 例行任务 / 每日实训 / 清体力 / 货币战争 / 差分宇宙 / 模拟宇宙（由于官方限制，模拟宇宙（暂知）无法使用，会显示仅支持Windows,后续会尽可能尝试通过打补丁解决） / 忘却之庭 / 虚构叙事 / 末日幻影 / 游戏更新 / 测试推送 / 任务列表。
 
-### 🎛️ 任务开关（28 项）
+### 🎛️ 任务开关（28 项）##实验功能稳定性未知
 不想让「完整运行」每次都跑全部内容？设置页可按组开关：
 
 - **领取奖励** — 总开关、委托、邮件、支援、每日实训、无名勋礼、兑换码、成就、短信
