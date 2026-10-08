@@ -1,0 +1,18 @@
+*.iml
+.gradle/
+.idea/
+.kotlin/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# 生成的大资产（按 README 第五节可复现地重新生成）
+# 两个文件合计约 537MB，不应进版本库。
+app/src/main/assets/bootstrap/termux-bootstrap.zip
+app/src/main/assets/rootfs/

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">March7thAssistant</string>
+
+    <!-- 运行时安装 -->
+    <string name="termux_bootstrap_installing">正在安装内置 Termux 运行时…</string>
+
+    <!-- 导航 -->
+    <string name="nav_dashboard">首页</string>
+    <string name="nav_deploy">部署</string>
+    <string name="nav_tasks">任务</string>
+    <string name="nav_terminal">终端</string>
+    <string name="nav_settings">设置</string>
+
+    <!-- 首页 -->
+    <string name="home_title">MaaTermux</string>
+    <string name="home_runtime_ready">运行时已就绪</string>
+    <string name="home_runtime_missing">运行时未安装</string>
+    <string name="home_deployed">容器已部署</string>
+    <string name="home_not_deployed">容器未部署</string>
+    <string name="home_action_deploy">一键部署</string>
+    <string name="home_action_run">一键运行任务</string>
+    <string name="home_action_stop">停止运行</string>
+    <string name="home_action_terminal">打开终端</string>
+
+    <!-- 部署 -->
+    <string name="deploy_title">一键部署</string>
+    <string name="deploy_start">开始部署</string>
+    <string name="deploy_retry">重试</string>
+    <string name="deploy_source_bundled">内置离线镜像</string>
+
+    <!-- 任务 -->
+    <string name="tasks_title">任务</string>
+    <string name="tasks_run">运行</string>
+    <string name="tasks_running">运行中</string>
+
+    <!-- 日志 -->
+    <string name="log_title">实时日志</string>
+    <string name="log_clear">清空</string>
+    <string name="log_empty">暂无日志</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_termux_mirror">Termux 软件源</string>
+    <string name="settings_rootfs_source">容器镜像来源</string>
+    <string name="settings_container_alias">容器名称</string>
+    <string name="settings_theme">主题</string>
+    <string name="settings_accent">强调色</string>
+    <string name="settings_after_finish">任务完成后</string>
+    <string name="settings_log_level">日志级别</string>
+    <string name="settings_run_daily_time">每日运行时间</string>
+    <string name="settings_reset">重置运行时</string>
+    <string name="settings_reset_warning">将删除已安装的 Termux 运行时与容器数据，此操作不可撤销。</string>
+
+    <!-- 终端 -->
+    <string name="terminal_title">终端</string>
+
+    <!-- 后台保活通知 -->
+    <string name="notif_channel_task">任务运行</string>
+    <string name="notif_channel_task_desc">运行自动化任务时的常驻通知，用于防止系统回收应用</string>
+    <string name="notif_task_running">三月七助手运行中</string>
+    <string name="notif_action_stop">停止任务</string>
+</resources>

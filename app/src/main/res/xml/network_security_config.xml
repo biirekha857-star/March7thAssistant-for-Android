@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  允许明文 HTTP。
+
+  为什么需要：实时监看是通过 Chrome DevTools Protocol 连到**本机**的
+  Chromium 调试端口（http://127.0.0.1:<port>/json/...）后建立 WebSocket，
+  再收 screencast 帧。targetSdk 28 起 Android 默认禁止明文流量，
+  连 127.0.0.1 也会被 NetworkSecurityPolicy 拦下并抛
+  UnknownServiceException: CLEARTEXT communication to 127.0.0.1 not permitted。
+
+  应用本身只对本机回环地址使用明文；对 GitHub 等外部服务仍走 HTTPS。
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
